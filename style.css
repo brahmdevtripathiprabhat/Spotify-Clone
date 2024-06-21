@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Freeman&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Freeman&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+body {
+  background-color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+nav ul {
+  display: flex;
+
+  align-items: center;
+  height: 65px;
+  background-color: black;
+  color: white;
+  list-style-type: none;
+}
+
+.brand img {
+  width: 50px;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: "Caveat", cursive;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+border-radius: 0.75rem;
+padding: 0.75rem;
+background-image: url("bg.jpg");
+background-size: cover;
+
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+nav ul li {
+  margin: 0 0.6rem;
+}
+nav ul li img {
+  margin: 0 0.3rem;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+   
+}
+.icons{
+    margin-top: 14px;
+    
+}
+.icons:hover{
+    cursor: pointer;
+}
+
+.songItem{
+height: 50px;
+display: flex;
+background-color: white;
+
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 0.75rem;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px ;
+    border-radius: 1.5rem;
+
+}
+.timespand{
+    margin: 0 6px;
+}
+.timespand :hover{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 44px;
+}
+.icons i{
+    margin-left: 10px;
+}
+.songInfo{
+  position: absolute;
+  left: 10vw;
+  font-family: "Caveat", cursive;
+
+}
+.songInfo img{
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
